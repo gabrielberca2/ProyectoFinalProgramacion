@@ -74,16 +74,7 @@ public class ReservaDia {
     
     String resultado="";
     
-    public void verReservaDía(){
-        for (int i=0;i<12;i++){
-            for(int j=0;j<30;j++){
-                resultado+=reserva[j][i];
-                resultado+="    ";
-            }
-            resultado+="\n";
-        }
-        JOptionPane.showMessageDialog(null,resultado);
-    }
+  
 
   
     

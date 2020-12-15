@@ -49,15 +49,6 @@ public class ReservacionPiscina {
 }
      String resultado="";
     
-    public void verReservaPiscina(){
-        for (int i=0;i<30;i++){
-           
-                resultado+=reserva[reservaPiscina];
-                resultado+="    ";
-            
-            resultado+="\n";
-        }
-        JOptionPane.showMessageDialog(null,resultado);
-    }
+   
 
 }

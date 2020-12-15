@@ -11,7 +11,6 @@ public class Menu {
     ReservacionPiscina rp = new ReservacionPiscina();
     Turismo t = new Turismo();
     Calificacion c=new Calificacion();
-    verReserva vr =new verReserva();
     
     quitarReserva qr = new quitarReserva();
     int preciofinal;
@@ -33,9 +32,9 @@ public class Menu {
                             + "3.Reservar Piscina\n"
                             + "4.Guía Turismo\n"
                             + "5.Calificar servicio virtual\n"
-                            + "6.Ver reservacion\n"                           
-                            + "7.Ingresar como administrador\n"                         
-                    + "8.Salir\n\n"
+                                                    
+                            + "6.Ingresar como administrador\n"                         
+                    + "7.Salir\n\n"
                     + "Digite su opción:"));
             
             switch (opc) {
@@ -71,17 +70,13 @@ public class Menu {
                     c.setOpinion(JOptionPane.showInputDialog(null,"Dejenos sus comentarios respecto al nuevo sistema virtual: "));
                     break;    
                 }
-                      case 6: {
-                    vr.menuReservas();
-                    break;    
-                    //Esta clase tiene un error al imprimir las reservas, debido a que su forma de impresión no es la más óptima y sus valores no cambian y puede llegar a ser un poco confuso.
-                }
-                        case 7: {
+                     
+                        case 6: {
                     qr.administrador();
                     break;    
                     //La contraseña para acceder a modo administrador es 123455
                 }
-                          case 8: {
+                        case 7: {
                     System.exit(0);
                     break;    
                 }

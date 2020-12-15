@@ -55,17 +55,7 @@ public class reservaHabitacion {
    
      String resultado="";
     
-    public void verReservaHabitacion(){
-        for (int i=0;i<115;i++){
-           
-                resultado+=habitacion[i];
-                resultado+="    ";
-            
-            resultado+="\n";
-        }
-        JOptionPane.showMessageDialog(null,resultado);
-    }
-
+   
     
 }
     
