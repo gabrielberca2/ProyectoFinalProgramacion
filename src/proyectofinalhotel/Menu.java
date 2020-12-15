@@ -53,10 +53,9 @@ public class Menu {
                 case 2:{
                     
                     ch.comprar();
-                    
-                   
-                    
+                                                       
                     break;
+                    //Esta sección posee un error, el cual consiste en que no se van sumando los productos que uno compra, sale el último que compró así mismo con su precio.
                 }
                 case 3:{
                     rp.reservaPiscina();
@@ -75,10 +74,12 @@ public class Menu {
                       case 6: {
                     vr.menuReservas();
                     break;    
+                    //Esta clase tiene un error al imprimir las reservas, debido a que su forma de impresión no es la más óptima y sus valores no cambian y puede llegar a ser un poco confuso.
                 }
                         case 7: {
                     qr.administrador();
                     break;    
+                    //La contraseña para acceder a modo administrador es 123455
                 }
                           case 8: {
                     System.exit(0);
