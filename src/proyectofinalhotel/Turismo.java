@@ -271,9 +271,9 @@ public class Turismo {
  String resultado="";
     
     public void verReservaTour(){
-        for (int i=0;i<y;i++){
+        for (int i=0;i<30;i++){
             
-                resultado+=reservaTour[y];
+                resultado+=reservaTour[i];
                 resultado+="    ";
             
             resultado+="\n";

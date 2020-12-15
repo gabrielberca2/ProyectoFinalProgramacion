@@ -53,7 +53,7 @@ public class Menu {
                 case 2:{
                     
                     ch.comprar();
-                    //Error al imprimir el recibo, solo imprim2
+                    
                    
                     
                     break;

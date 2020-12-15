@@ -13,6 +13,7 @@ public class reservaHabitacion {
 
     private int habitacion []=new int [115];
   
+  
     
     public void resetearHabitaciones(){
         int x;
@@ -55,9 +56,9 @@ public class reservaHabitacion {
      String resultado="";
     
     public void verReservaHabitacion(){
-        for (int i=0;i<reservaHabitacion;i++){
+        for (int i=0;i<115;i++){
            
-                resultado+=habitacion[reservaHabitacion];
+                resultado+=habitacion[i];
                 resultado+="    ";
             
             resultado+="\n";
