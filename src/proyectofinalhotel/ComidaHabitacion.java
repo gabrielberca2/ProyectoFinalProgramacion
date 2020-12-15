@@ -189,7 +189,11 @@ public class ComidaHabitacion {
        case 7:{
           JOptionPane.showMessageDialog(null,"Su factura es: "+factura+"\n"
     +"Con un total a pagar de: "+totalComida);
-                    return;
+          break;
+                    
+       }
+       case 8:{
+           return;
        }
      
        
